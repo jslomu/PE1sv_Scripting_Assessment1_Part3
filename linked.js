@@ -65,12 +65,12 @@ function checkQuantity() {
             orderThree += 1;
             console.log("2 - " + remainingPizzas);
         }
-        if (remainingPizzas = 2) {
+        if (remainingPizzas == 2) {
             remainingPizzas -= 2;
             orderTwo += 1;
             console.log("3 - " + remainingPizzas);
         }
-        if (remainingPizzas = 1) {
+        if (remainingPizzas == 1) {
             remainingPizzas -= 1;
             orderOne += 1;
             console.log("4 - " + remainingPizzas);
